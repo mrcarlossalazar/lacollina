@@ -15719,3 +15719,10 @@ p.order-again .button:after {
     padding-right: 15px; }
   .single-product.style-3 div.product .images .thumbnails {
     margin: 0; } }
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .embedclass
+  {
+    display: none; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
